@@ -14,7 +14,8 @@
         android:layout_height="wrap_content"
         android:text="@string/button_text"
         android:gravity="center"
-        />
+        android:id="@+id/button"
+        android:onClick="bt_click" />
 
 
 </LinearLayout>
